@@ -1,15 +1,16 @@
 package model;
 
 public class Node {
-    int info;
-    Node next;
+    public int info;
+    public Node next;
 
-    Node(int info, Node next) {
+    public Node(int info, Node next) {
         this.info = info;
         this.next = next;
     }
 
-    Node(int info) {
+    public Node(int info) {
         this(info, null);
     }
+
 }
