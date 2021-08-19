@@ -15,18 +15,19 @@ public class MyList {
 
     public void addFirst(int index) {
         Node p = new Node(index);
-        if(isEmpty()){
-            head = tail = p;
-        }else{
-            p.next= head;
+        if (isEmpty()) {
+            head = p;
+        } else {
+            p.next = head;
             head = p;
         }
     }
-    public void traversal(){
-        Node  p = head;
-        while(p != null){
-          System.out.print(p.info+" ");
-          p=p.next;  
+
+    public void traversal() {
+        Node p = head;
+        while (p != null) {
+            System.out.print(p.info + " ");
+            p = p.next;
         }
     }
 }
