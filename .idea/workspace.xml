@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c1cce77-e704-443c-9bf2-004b74e47bbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_structures_and_algorithms_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_structures_and_algorithms_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/data_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/LinkedList/controller/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/LinkedList/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/LinkedList/model/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/bin/controller/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/bin/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/bin/model/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/controller/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/model/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StackandQueue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/StackandQueue/README.md" afterDir="false" />
+    <list default="true" id="3c1cce77-e704-443c-9bf2-004b74e47bbe" name="Changes" comment="Refactor">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Workspace/Train/data-structures-and-algorithms"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Workspace/Train/data-structures-and-algorithms&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Workspace\Train\data-structures-and-algorithms" />
@@ -82,6 +60,9 @@
       <recent name="E:\Workspace\Train\data-structures-and-algorithms\src\main\java\LinkedList" />
       <recent name="E:\Workspace\Train\data-structures-and-algorithms\src\main\java" />
       <recent name="E:\Workspace\Train\data-structures-and-algorithms" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="study.LinkedList" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,8 +107,23 @@
       <option name="presentableId" value="Default" />
       <updated>1668744895797</updated>
       <workItem from="1668744897454" duration="673000" />
-      <workItem from="1668745595290" duration="383000" />
+      <workItem from="1668745595290" duration="1154000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor">
+      <created>1668746274995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668746274995</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor">
+      <created>1668746296130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668746296130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +142,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
 </project>
