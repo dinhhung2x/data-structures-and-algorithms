@@ -1,4 +1,4 @@
-package model;
+package study.LinkedList.model;
 
 public class Node {
     public int info;

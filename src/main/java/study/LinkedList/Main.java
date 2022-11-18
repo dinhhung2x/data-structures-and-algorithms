@@ -1,6 +1,6 @@
-package main;
+package study.LinkedList;
 
-import controller.MyList;
+import study.LinkedList.controller.MyList;
 
 public class Main {
     public static void main(String[] args) {

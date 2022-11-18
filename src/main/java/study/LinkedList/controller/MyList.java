@@ -1,6 +1,6 @@
-package controller;
+package study.LinkedList.controller;
 
-import model.Node;
+import study.LinkedList.model.Node;
 
 public class MyList {
     Node head, tail;
